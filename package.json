@@ -1,0 +1,38 @@
+{
+  "name": "mktmpdir",
+  "version": "0.0.0",
+  "description": "mktmpdir creates a temporary directory",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter dot --check-leaks --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nkzawa/mktmpdir.git"
+  },
+  "keywords": [
+    "tmp",
+    "temp",
+    "temporary",
+    "directory",
+    "tmpdir"
+  ],
+  "author": "Naoyuki Kanezawa <naoyuki.kanezawa@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "rimraf": "2.2.2"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "git-scripts": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nkzawa/mktmpdir.git"
+  },
+  "git": {
+    "scripts": {
+      "pre-commit": "npm test"
+    }
+  }
+}
