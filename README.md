@@ -47,7 +47,7 @@ mktmpdir(null, '/var/tmp', function(err, dir) {
 // If a callback is invoked, the path of the directory and its contents are removed.
 mktmpdir(function(err, dir, done) {
   if (err) throw err;
-  fs.open(dir + '/foo', 'w", function(err, fd) {
+  fs.open(dir + '/foo', 'w', function(err, fd) {
     done(err);
   });
 }, function(err) {
