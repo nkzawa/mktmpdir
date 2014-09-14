@@ -19,20 +19,10 @@
   "author": "Naoyuki Kanezawa <naoyuki.kanezawa@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "rimraf": "2.2.2"
+    "rimraf": "~2.2.8"
   },
   "devDependencies": {
-    "mocha": "*",
-    "chai": "*",
-    "git-scripts": "*"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/nkzawa/mktmpdir.git"
-  },
-  "git": {
-    "scripts": {
-      "pre-commit": "npm test"
-    }
+    "chai": "~1.9.1",
+    "mocha": "~1.21.4"
   }
 }
